@@ -14,6 +14,7 @@ const STATUSES = {
 };
 
 export default function App() {
+  console.log('tpt');
   const [focusSubject, setFocusSubject] = useState(null);
   const [focusHistory, setFocusHistory] = useState([]);
 
